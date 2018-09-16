@@ -19,8 +19,8 @@ if __name__ == '__main__':
 
     script_name = os.path.basename(__file__)
 
-    parser = argparse.ArgumentParser(description="", formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("-d", "--file", help="datafile", type=str)
+    parser = argparse.ArgumentParser(description="Use -f PATH/TO/FILENAME to specifiy the dataset which should be transformed into a graph.", formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("-f", "--file", help="path to dataset", type=str)
 
     args = parser.parse_args()
 
