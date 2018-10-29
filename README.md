@@ -1,4 +1,4 @@
-==== WORKFLOW ====
+### WORKFLOW ###
 
 1. Find dataset (of a certain domain), save in "datasets" 
 
