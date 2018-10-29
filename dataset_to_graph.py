@@ -4,7 +4,7 @@ import numpy as np
 from CGmodelselection.graph import get_graph_from_data
 
 
-def to_graph(file, standardize = True, kS = 2, model = 'PW', graphthreshold = 0):
+def to_graph(file, standardize = True, kS = 2, model = 'PW', graphthreshold = 1e-3):
 
     grpnormmat, graph, dlegend = get_graph_from_data(file, drop = [], model = model, graphthreshold = graphthreshold, standardize = standardize, kS = kS)
 
